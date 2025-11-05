@@ -21,29 +21,29 @@ npm install
 
 Create a .env file inside the backend folder and add:
 
-# Currency
+ <!--Currency-->
 CURRENCY="INR"
 
-# JWT Secret (change this to a secure random value)
+ <!--JWT Secret (change this to a secure random value)-->
 JWT_SECRET="your_jwt_secret_here"
 
-# Admin Panel Credentials
+ <!--Admin Panel Credentials-->
 ADMIN_EMAIL="your_admin_email_here"
 ADMIN_PASSWORD="your_admin_password_here"
 
-# MongoDB Setup (required)
+<!-- MongoDB Setup (required)-->
 MONGODB_URI="your_mongodb_connection_string_here"
 
-# Cloudinary Setup (required)
+<!-- Cloudinary Setup (required)-->
 CLOUDINARY_NAME="your_cloudinary_name_here"
 CLOUDINARY_API_KEY="your_cloudinary_api_key_here"
 CLOUDINARY_SECRET_KEY="your_cloudinary_secret_key_here"
 
-# Razorpay Payment Integration (optional)
+<!-- Razorpay Payment Integration (optional)-->
 RAZORPAY_KEY_ID="your_razorpay_key_id_here"
 RAZORPAY_KEY_SECRET="your_razorpay_key_secret_here"
 
-# Stripe Payment Integration (optional)
+<!-- Stripe Payment Integration (optional)-->
 STRIPE_SECRET_KEY="your_stripe_secret_key_here"
 
 # Admin Panel Setup
@@ -88,5 +88,5 @@ Do not expose .env file publicly
 Restart terminal if commands fail
 
 If you begin directly in Admin Panel and not on the login page,
-simply logout first and then login using you define credentials.
+simply logout first and then login using your defined credentials.
 
