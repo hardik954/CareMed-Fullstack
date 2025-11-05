@@ -40,6 +40,7 @@ CLOUDINARY_API_KEY="your_cloudinary_api_key_here"
 CLOUDINARY_SECRET_KEY="your_cloudinary_secret_key_here"
 
 <!-- Razorpay Payment Integration (optional)-->
+(Optional)
 RAZORPAY_KEY_ID="your_razorpay_key_id_here"
 RAZORPAY_KEY_SECRET="your_razorpay_key_secret_here"
 
